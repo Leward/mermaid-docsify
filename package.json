@@ -5,7 +5,8 @@
   "browser": "src/index.js",
   "scripts": {
     "build": "parcel build src/index.js --out-file docsify-mermaid.js --no-minify",
-    "example": "npm run build && docsify serve example/ --open"
+    "example": "npm run build && docsify serve example/ --open",
+    "test": "echo 'No test to run'"
   },
   "repository": {
     "type": "git",
