@@ -1,3 +1,7 @@
+mermaid-docsify is a docsify plugin which allows to render mermaid diagrams in docsify.
+
+## How to use
+
 Add Mermaid and the plugin:
 
 ```html
