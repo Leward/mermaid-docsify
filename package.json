@@ -1,6 +1,6 @@
 {
   "name": "docsify-mermaid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A plugin to render mermaid diagrams in docsify",
   "browser": "src/index.js",
   "scripts": {
