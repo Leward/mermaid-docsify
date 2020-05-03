@@ -6,7 +6,8 @@ Add Mermaid and the plugin:
 
 ```html
 <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-<script src="mermaid-docsify.js"> <!-- This is not hosted yet>
+<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"> 
+<script>mermaid.initialize({ startOnLoad: true });</script>
 ```
 
 Now you can include mermaid diagrams in your docsify docs:
