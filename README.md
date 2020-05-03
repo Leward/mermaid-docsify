@@ -19,4 +19,6 @@ Now you can include mermaid diagrams in your docsify docs:
         B-->D(fa:fa-spinner);
     ```
 
+A demo is available on [Codepen](https://codepen.io/leward/project/editor/AyegJW).
+
 ![Docsify with mermaid Screenshot](screenshot.png)
