@@ -6,7 +6,7 @@ Add Mermaid and the plugin:
 
 ```html
 <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"> 
+<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
 ```
 
