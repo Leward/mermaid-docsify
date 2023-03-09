@@ -4,4 +4,6 @@ if (!window.$docsify) {
     window.$docsify = {}
 }
 
-window.$docsify.plugins = (window.$docsify.plugins || []).concat(plugin)
+const props = window.$docsify.mermaidConfig || { querySelector: ".mermaid" };
+
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(plugin(props));

@@ -5,9 +5,24 @@ mermaid-docsify is a docsify plugin which allows to render mermaid diagrams in d
 Add Mermaid and the plugin:
 
 ```html
-<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
-<script>mermaid.initialize({ startOnLoad: true });</script>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="dist/docsify-mermaid.js"></script>
+```
+
+You can optionally customize [mermaid.run](https://mermaid.js.org/config/usage.html#using-mermaid-run) configuration with this props :
+
+```html
+  <script>
+    window.$docsify = {
+      mermaidConfig: {
+        querySelector: ".mermaid"
+      }
+    };
+  </script>
 ```
 
 Now you can include mermaid diagrams in your docsify docs:
