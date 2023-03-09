@@ -10,7 +10,7 @@ Add Mermaid and the plugin:
     mermaid.initialize({ startOnLoad: true });
     window.mermaid = mermaid;
   </script>
-  <script src="dist/docsify-mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
 ```
 
 You can optionally customize [mermaid.run](https://mermaid.js.org/config/usage.html#using-mermaid-run) configuration with this props :
