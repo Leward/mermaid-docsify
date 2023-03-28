@@ -18,7 +18,7 @@ const plugin = (mermaidConf) => (hook) => {
         next(htmlElement.innerHTML);
     });
 
-    hook.ready(() => mermaid.run(mermaidConf));
+    hook.doneEach(() => mermaid.run(mermaidConf));
 
 };
 
