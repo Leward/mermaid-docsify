@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/docsify-mermaid.svg)](https://www.npmjs.com/package/docsify-mermaid)
+
 mermaid-docsify is a docsify plugin which allows to render mermaid diagrams in docsify.
 
 ## How to use
